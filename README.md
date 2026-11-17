@@ -13,7 +13,7 @@
 | Admin   | admin@example.com   | password |
 | Manager | manager@example.com | password |
 | budi    | budi@example.com    | password |
-| siti  a  | siti@example.com    | password |
+| siti    | siti@example.com    | password |
 
 ## Hak Akses
 - Admin: kelola karyawan, kriteria, penilaian (termasuk hapus).
