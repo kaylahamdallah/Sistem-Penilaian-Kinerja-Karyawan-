@@ -1,8 +1,8 @@
 # Sistem Penilaian Kinerja Karyawan (PHP Native + MySQL)
 
 ## Cara Menjalankan
-1. Install XAMPP atau Laragon (PHP 8.1+ dan MySQL), lalu nyalakan Apache & MySQL.
-2. Salin folder `penilaian-kinerja` ke `C:\xampp\htdocs\` (Laragon: `C:\laragon\www\`).
+1. Install XAMPP (PHP 8.1+ dan MySQL), lalu nyalakan Apache & MySQL.
+2. Salin folder `penilaian-kinerja` ke `C:\xampp\htdocs\`.
 3. Buka phpMyAdmin (`http://localhost/phpmyadmin`) -> tab **Import** -> pilih `database.sql` -> Go.
 4. Sesuaikan koneksi database di `config.php` bila perlu (default: user `root`, password kosong).
 5. Buka `http://localhost/penilaian-kinerja/` di browser.
@@ -12,10 +12,13 @@
 |---------|---------------------|----------|
 | Admin   | admin@example.com   | password |
 | Manager | manager@example.com | password |
+| budi    | budi@example.com    | password |
+| siti    | siti@example.com    | password |
 
 ## Hak Akses
 - Admin: kelola karyawan, kriteria, penilaian (termasuk hapus).
 - Manager: membuat dan melihat penilaian.
+- Karyawan: melihat dan mencetak hasil penilaian sendiri.
 
 ## Rumus
 Nilai Akhir = Σ(nilai kriteria × bobot) / Σ bobot
